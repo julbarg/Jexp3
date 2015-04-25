@@ -1,0 +1,233 @@
+@CHARSET "UTF-8"; /*
+Plugin: jQuery Parallax
+Version 1.1.3
+Author: Ian Lunn
+Twitter: @IanLunn
+Author URL: http://www.ianlunn.co.uk/
+Plugin URL: http://www.ianlunn.co.uk/plugins/jquery-parallax/
+
+License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike). Please attribute work to Ian Lunn simply by leaving these comments in the source code or if you'd prefer, place a link on your website to http://www.ianlunn.co.uk/.
+*/
+@charset "utf-8";
+/* CSS Document */
+*{/*Elementos por defecto*/
+	padding:0;
+	margin:0;
+	font-family: nimbus_sans_novus_cond_dbold;
+}
+body {
+   margin: 0;
+   min-width: 980px;
+   padding: 0;
+}
+
+p {
+   margin: 0 0 20px 0;
+   font-family: nimbus_sans_novus_cond_dbold;
+   font-size: 22px;
+   text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+p {
+   font-size-adjust: 0.488;
+   font-weight: 200;
+   font-style: normal;
+}
+
+img {
+   border: 0;
+}
+
+h1,#pixels {
+   font-family: "Museo 900", Verdana, serif;
+   font-size-adjust: 0.40;
+   font-weight: 700;
+   font-style: normal;
+}
+
+h2 {
+   /*font-family: "Beau Sans Pro Book", Verdana, sans-serif;*/
+   font-family: nimbus_sans_novus_cond_dbold;
+   font-style: normal;
+   font-size: 60px;
+   text-shadow: black 0.1em 0.1em 0.2em;   
+    
+}
+
+h3 {
+   /*font-family: "Beau Sans Pro Book", Verdana, sans-serif;*/
+   font-family: nimbus_sans_novus_cond_dbold;
+   font-style: normal;
+   font-size: 30px;
+   text-shadow: black 0.1em 0.1em 0.2em;   
+    
+}
+
+#header h1,#pixels {
+   color: #48941A;
+}
+
+.float-left {
+   float: left;
+   margin: 0 0 0 20px;
+}
+
+.float-right {
+   float: right;
+   margin: 0 20px 0 0;
+}
+
+.center {
+   font-size: 2.5em;
+   padding: 80px 0 0 0;
+   text-align: center;
+}
+
+#header,#intro,#second {
+   width: 100%;
+}
+
+#intro {
+   background: url(images/firstBG01.jpg) 50% 0 no-repeat fixed;
+   color: white;
+   height: 794px;
+   margin: 0 auto;
+   padding: 0;
+   background-size: cover;
+}
+
+#second {
+   background: url(images/secondBG.jpg) 50% 0 no-repeat fixed;
+   background-color: #1B434D;
+   color: white;
+   height: 1024px;
+   margin: 0 auto;
+   overflow: hidden;
+   padding: 0;
+   background-size: cover;
+   
+}
+
+#second .bg {
+   background: url(images/trainers.png) 50% 0 no-repeat fixed;
+   height: 1300px;
+   margin: 0 auto;
+   padding: 0;
+   position: absolute;
+   width: 900px;
+   z-index: 200;
+}
+
+#third {
+   background: url(images/thirdBG.jpg) 50% 0 no-repeat fixed;
+   color: white;
+   background-color:#D6D6D6;
+   height: 650px;
+   padding: 50px 0 0 0;
+}
+
+#fifth {
+   height: 400px;
+   margin: 0 auto;
+   padding: 40px 0 0 0;
+   background-color:#262626;
+   color:#bfbfbf;
+}
+
+.story {
+   margin: 0 auto;
+   min-width: 1080px;
+   /*overflow: auto;*/
+   width: 1080px;
+}
+
+.story .float-left,.story .float-right {
+   padding: 190px 0 0 0;
+   position: relative;
+   width: 350px;
+}
+
+.product {
+/*    margin: 0 auto;
+   min-width: 980px;
+   overflow: auto;
+   width: 100%; */
+   padding-top: 60px;
+   padding-left: 100px;
+}
+
+.product .float-left,.product .float-right {
+   padding: 80px 170px 0px 170px;
+   position: relative;
+}
+
+nav {
+   /*background-color:rgb(43,41,42);*/
+   width: 100%;
+   height: 110px;
+   position: fixed;
+   z-index: 999;
+}
+
+nav ul {
+   list-style: none;
+}
+
+
+nav>ul>li {
+   float: left;   
+}
+
+nav ul li a {
+   display: block; /*Enlace tome la forma rectangular*/
+   padding: 10px 5px;
+   color: #FFF;
+   text-decoration: none; /*Quitar subrayado del texto*/
+   color: white;
+   /*border-bottom: 5px solid #B01513;*/
+   text-align: center;
+   font-size: 26px;
+   font-style: normal;
+   margin: 0px 7px;
+   vertical-align: top;
+}
+
+ul#nav2 {
+	float:right;
+	background-color: #7ea6b5;
+}
+
+nav ul li a:visited {
+   background-color: #7ea6b5;
+   color: white;
+}
+
+nav ul li:hover {
+   background-color: #2a2829;
+   color: white;
+}
+
+nav ul li:active {
+   background-color: #2a2829;
+   color: white;
+}
+
+nav ul li a.item {
+
+/* margin-top: 40px; */
+}
+
+.table_div {
+    display: table;
+    text-align: center;
+    margin: 0 auto;
+}
+.fila_div {
+    display: table-row;
+}
+.columna_div {
+    display: table-cell;
+    vertical-align: top;
+    padding: 40px;
+	width: 33%;
+}

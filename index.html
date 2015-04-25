@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Jexp3</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="estilo.css" rel="stylesheet" type="text/css" />
+<link href="fuentes/stylesheet.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.parallax-1.1.3.js"></script>
+<script type="text/javascript" src="scripts/jquery.localscroll-1.2.7-min.js"></script>
+<script type="text/javascript" src="scripts/jquery.scrollTo-1.4.2-min.js"></script>
+<script type="text/javascript">
+	function cambio2(id){
+			id.value="";
+	}
+   $(document).ready(function() {
+      $('#nav2').localScroll(800);
+
+      //.parallax(xPosition, speedFactor, outerHeight) options:
+      //xPosition - Horizontal position of the element
+      //inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
+      //outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+      $('#intro').parallax("50%", 0.1);
+      $('#second').parallax("50%", 0.1);
+      $('.bg').parallax("50%", 0.4);
+      $('#third').parallax("50%", 0.3);
+
+   })
+</script>
+</head>
+<body>
+   <header>
+      <nav>
+         <ul id="nav">
+			<li>
+               <img src="images/Jexp3.png" height="120">
+            </li>            
+         </ul>
+		 <ul id="nav2">			
+            <li>
+               <a class="item" href="#intro" title="Next Section">&nbsp;&nbsp;INICIO&nbsp;&nbsp;</a>
+            </li>
+            <li>
+               <a class="item" href="#second" title="Next Section">&nbsp;&nbsp;SERVICIOS&nbsp;&nbsp;</a>
+            </li>
+            <li>
+               <a class="item" href="#third" title="Next Section">&nbsp;JEXP3&nbsp;</a>
+            </li>
+            <li style="margin-right: 80px;">
+               <a class="item" href="#fifth" title="Next Section">&nbsp;CONTACTO&nbsp;</a>
+            </li>
+         </ul>
+      </nav>
+   </header>
+   <div id="intro">
+      <div class="story">
+         <div class="float-left">
+            <h2>Desarrollando sus Ideas</h2>
+            <p>Somos una empresa comprometida con todas las necesidades tecnologicas de su empresa.<br/>
+			Experiencia, calidad y tecnologia, a su disposición</p>
+         </div>
+      </div>
+      <!--.story-->
+   </div>
+   <!--#intro-->
+   <div id="second">
+     		<section class="product">
+        	<article>
+            	<div class="contenedor">
+					<div class="software_medida">
+						<h3 class="titulo_producto">Software</h3>
+                        <h3 class="titulo_producto">a la Medida</h3>
+                        <div class="software_medida_descripcion">
+                        	<p class="descripcion">Desarrollamos Software de acuerdo a las necesidades de su negocio.<br>
+                            Análisis, diseño, desarrollo, implantación y soporte de software por encargo a la medida de las 				                            necesidades de nuestros clientes.
+                            </p>
+                        </div>
+					</div>
+                    <div class="disenio_web">
+						<h3 class="titulo_producto">Diseño Web</h3>
+                        <div class="disenio_web_descripcion">
+                        	<p class="descripcion">Diseñamos sitios web a medida de las necesidades de cada cliente, sin uso de plantillas predeterminadas, sitios originales armados de cero en base a sus especificaciones y la propia investigación en el mercado.
+                            </p>
+                        </div>
+					</div>
+                    <div class="sistematizacion_negocios">
+						<h3 class="titulo_producto_secundario">Sistematización de sus Negocios</h3>
+                        <div class="sistematizacion_negocios_descripcion">
+                        	<p class="descripcion">Sistematice su Negocio con nosotros.
+                            </p>
+                        </div>
+					</div>
+                    <div class="apps_mobile">
+						<h3 class="titulo_producto_secundario">Aplicaciones Moviles</h3>
+                        <div class="apps_mobile_descripcion">
+                        	<p class="descripcion">Aplicaciones Moviles en diferentes plataformas
+                            </p>
+                        </div>
+					</div>   
+                    <div class="soporte_tecnico">
+						<h3 class="titulo_producto_secundario">Asistencia y Soporte Tecnico</h3>
+                        <div class="soporte_tecnico_descripcion">
+                        	<p class="descripcion">Asistencia y Soporte Tecnico
+                            </p>
+                        </div>
+					</div>                                      
+                </div>                        	                        
+            </article>
+        </section>
+      </div>
+   </div>
+   <!--#second-->
+   <div id="third">
+      <div class="story">
+         <div class="contenedor">
+         	<div class="titulo_jexp3">
+            	<h2>Jexp3</h2>
+            </div>
+            <div class="descripcion_jexp3">
+            	<p>Somos una empresa joven, comprometida en brindar necesidades tecnologicas de calidad su empresa.
+Experiencia, calidad y tecnologia, a su disposición...
+				Somos una empresa joven, comprometida en brindar necesidades tecnologicas de calidad su empresa.
+Experiencia, calidad y tecnologia, a su disposición</p>			
+                <div class="personal">
+                	<img src="images/personal_foto.jpg" width="300">
+                    <h3>Jehison Esteban Prada</h3>
+                    <p class="personal_rol">Desarrollador Aplicaciones Moviles<br>   
+                    Android - iOS - Windows Phone</p>                
+                </div> 
+                <div class="personal">
+                	<img src="images/personal_foto.jpg" width="300">
+                    <h3>Julian Barragan Verano</h3>
+                    <p class="personal_rol">Diseño Web
+                    Desarrollador Software a la Medida</p>                 
+                </div>
+                <div class="personal">
+					<img src="images/personal_foto.jpg" width="300">
+                    <h3>Johnatan Castro Hincapie</h3>
+                    <p class="personal_rol">Desarrollador Software a la Medida<br>
+                    Soporte Tecnico</p>
+                </div>                     
+           	</div>
+         </div>
+      </div>
+      <!--.story-->
+   </div>
+   <!--#third-->
+   <div id="fifth">
+      <div class="story">
+      	<div class="footer">
+        	<h3>Acerca de Nosotros</h3><br>
+            <img src="images/Jexp3_footer.png"><br><br>
+            <p class="descripcion_footer">
+            <b>Nos puedes contactar en</b><br><br>
+            <b>Web:</b> www.Jexp3.com<br>
+            <b>E-Mail:</b> jexp3@gmail.com<br>
+            <b>E-Mail Inf:</b> info@jexp3.com<br>
+            <b>Telefonos:</b> 310 818 8184 - 312 308 92 18 - 317 399 1889</p>
+        </div>
+        <div class="footer">
+        	<h3>Mapa de Sitio</h3><br>
+            <ul class="grupo_mapa_sitio">
+            	<li class="link_mapa_sitio">Servicios</li>
+                <li class="link_mapa_sitio">Software a la Medida</li>
+                <li class="link_mapa_sitio">Diseño Web</li>
+               	<li class="link_mapa_sitio">Aplicaciones Moviles</li>
+                <li class="link_mapa_sitio">Asistencia y Soporte</li>
+                <li class="link_mapa_sitio">Jexp3</li>
+          	</ul>
+        </div>
+        <div class="footer">
+        	<h3>Contacto</h3><br>
+            <input class="contacto" type="text" onFocus="cambio(this)" placeholder="Nombre">
+            <input class="contacto" type="text" onFocus="cambio(this)" placeholder="E-Mail">
+            <textarea class="contacto_mensaje" placeholder="Mensaje"></textarea><br>
+            <button type="button" class="boton_enviar">Enviar</button>
+        </div>        
+      </div>
+      <!--.story-->
+   </div>
+   <!--#fifth-->
+</body>
+</html>
